@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        header input {
+            width: 50%;
+            padding: 8px;
+        }
+        main {
+            display: flex;
+        }
+        .video-section {
+            flex: 3;
+            padding: 20px;
+        }
+        .video {
+            width: 100%;
+            height: 400px;
+            background: #ccc;
+            margin-bottom: 20px;
+        }
+        .video-details {
+            font-size: 14px;
+            color: #555;
+        }
+        .sidebar {
+            flex: 1;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        .recommended-video {
+            margin-bottom: 15px;
+            display: flex;
+            gap: 10px;
+        }
+        .thumbnail {
+            width: 80px;
+            height: 60px;
+            background: #ddd;
+        }
+        .video-title {
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">YouTube</div>
+        <input type="text" placeholder="Search">
+        <button>Search</button>
+    </header>
+    <main>
+        <div class="video-section">
+            <div class="video"></div>
+            <div class="video-details">
+                <h3>Video Title</h3>
+                <p>Channel Name · 1M views · 1 week ago</p>
+                <p>Description of the video goes here.</p>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <h4>Recommended Videos</h4>
+            <div class="recommended-video">
+                <div class="thumbnail"></div>
+                <div class="video-title">Recommended Video 1</div>
+            </div>
+            <div class="recommended-video">
+                <div class="thumbnail"></div>
+                <div class="video-title">Recommended Video 2</div>
+            </div>
+            <div class="recommended-video">
+                <div class="thumbnail"></div>
+                <div class="video-title">Recommended Video 3</div>
+            </div>
+            <div class="recommended-video">
+                <div class="thumbnail"></div>
+                <div class="video-title">Recommended Video 4</div>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>

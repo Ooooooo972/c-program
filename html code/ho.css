@@ -1,0 +1,18 @@
+
+*
+{
+    color: aliceblue;
+}
+body
+{
+    color: black;
+    background-color: aqua;
+    text-align: center;
+    text-size-adjust: 40px;
+    border: 90%;
+    line-height: normal;
+}
+.h
+{
+    text-emphasis-color: red;
+}
